@@ -1,3 +1,4 @@
 import * as wasm from "rust-wasm";
 
-wasm.greet();
+const count = prompt("Enter a calculation number:");
+wasm.calc_pi(count);
